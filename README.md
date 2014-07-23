@@ -45,10 +45,7 @@ Look up the following inside your script file:
 If you can't find Soap Client set to enabled or cant even find the soap header you have to do the following:
 
  1. Locate php.ini in your apache bin folder, I.e Apache/bin/php.ini
- 2. Remove the ; from the beginning of 
- 
- 	;extension=php_soap.dll
- 
+ 2. Remove the ; from the beginning of `;extension=php_soap.dll`
  3. Restart your Apache server
  4. Look up your phpinfo(); again and check if you can find soap
  5. If you do, problem solved!
